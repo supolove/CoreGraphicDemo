@@ -13,6 +13,15 @@
 		5BD220E01EE8F41E00A24F0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD220DE1EE8F41E00A24F0B /* Main.storyboard */; };
 		5BD220E21EE8F41E00A24F0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BD220E11EE8F41E00A24F0B /* Assets.xcassets */; };
 		5BD220E51EE8F41E00A24F0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD220E31EE8F41E00A24F0B /* LaunchScreen.storyboard */; };
+		5BD220EE1EE8F6E900A24F0B /* RectangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD220ED1EE8F6E900A24F0B /* RectangleView.m */; };
+		5BD220F21EE8F9A600A24F0B /* RoundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD220F11EE8F9A600A24F0B /* RoundView.m */; };
+		5BD220F51EE9033E00A24F0B /* RoundView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD220F41EE9033E00A24F0B /* RoundView1.m */; };
+		5BD220F91EE908C700A24F0B /* RoundView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD220F81EE908C700A24F0B /* RoundView2.m */; };
+		5BD220FC1EE914E000A24F0B /* RectangleView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD220FB1EE914E000A24F0B /* RectangleView1.m */; };
+		5BD220FF1EE929FA00A24F0B /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD220FE1EE929FA00A24F0B /* LineView.m */; };
+		5BD221021EE92C8300A24F0B /* TriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD221011EE92C8300A24F0B /* TriangleView.m */; };
+		5BD221051EE9301700A24F0B /* WorldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD221041EE9301700A24F0B /* WorldView.m */; };
+		5BD221081EE9319A00A24F0B /* LineView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD221071EE9319A00A24F0B /* LineView1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,25 @@
 		5BD220E11EE8F41E00A24F0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BD220E41EE8F41E00A24F0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BD220E61EE8F41E00A24F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BD220EC1EE8F6E900A24F0B /* RectangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleView.h; sourceTree = "<group>"; };
+		5BD220ED1EE8F6E900A24F0B /* RectangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleView.m; sourceTree = "<group>"; };
+		5BD220F01EE8F9A600A24F0B /* RoundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundView.h; sourceTree = "<group>"; };
+		5BD220F11EE8F9A600A24F0B /* RoundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundView.m; sourceTree = "<group>"; };
+		5BD220F31EE9033E00A24F0B /* RoundView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundView1.h; sourceTree = "<group>"; };
+		5BD220F41EE9033E00A24F0B /* RoundView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundView1.m; sourceTree = "<group>"; };
+		5BD220F61EE906B500A24F0B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5BD220F71EE908C700A24F0B /* RoundView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundView2.h; sourceTree = "<group>"; };
+		5BD220F81EE908C700A24F0B /* RoundView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundView2.m; sourceTree = "<group>"; };
+		5BD220FA1EE914E000A24F0B /* RectangleView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RectangleView1.h; path = Assets.xcassets/RectangleView1.h; sourceTree = "<group>"; };
+		5BD220FB1EE914E000A24F0B /* RectangleView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RectangleView1.m; path = Assets.xcassets/RectangleView1.m; sourceTree = "<group>"; };
+		5BD220FD1EE929FA00A24F0B /* LineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineView.h; sourceTree = "<group>"; };
+		5BD220FE1EE929FA00A24F0B /* LineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineView.m; sourceTree = "<group>"; };
+		5BD221001EE92C8300A24F0B /* TriangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleView.h; sourceTree = "<group>"; };
+		5BD221011EE92C8300A24F0B /* TriangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleView.m; sourceTree = "<group>"; };
+		5BD221031EE9301700A24F0B /* WorldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldView.h; sourceTree = "<group>"; };
+		5BD221041EE9301700A24F0B /* WorldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldView.m; sourceTree = "<group>"; };
+		5BD221061EE9319A00A24F0B /* LineView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineView1.h; sourceTree = "<group>"; };
+		5BD221071EE9319A00A24F0B /* LineView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineView1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +72,7 @@
 			children = (
 				5BD220D41EE8F41E00A24F0B /* CoreGraphicDemo */,
 				5BD220D31EE8F41E00A24F0B /* Products */,
+				5BD220F61EE906B500A24F0B /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +87,7 @@
 		5BD220D41EE8F41E00A24F0B /* CoreGraphicDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5BD220EF1EE8F6F700A24F0B /* view */,
 				5BD220D81EE8F41E00A24F0B /* AppDelegate.h */,
 				5BD220D91EE8F41E00A24F0B /* AppDelegate.m */,
 				5BD220DB1EE8F41E00A24F0B /* ViewController.h */,
@@ -77,6 +107,31 @@
 				5BD220D61EE8F41E00A24F0B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BD220EF1EE8F6F700A24F0B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				5BD220EC1EE8F6E900A24F0B /* RectangleView.h */,
+				5BD220ED1EE8F6E900A24F0B /* RectangleView.m */,
+				5BD220FA1EE914E000A24F0B /* RectangleView1.h */,
+				5BD220FB1EE914E000A24F0B /* RectangleView1.m */,
+				5BD220F01EE8F9A600A24F0B /* RoundView.h */,
+				5BD220F11EE8F9A600A24F0B /* RoundView.m */,
+				5BD220F31EE9033E00A24F0B /* RoundView1.h */,
+				5BD220F41EE9033E00A24F0B /* RoundView1.m */,
+				5BD220F71EE908C700A24F0B /* RoundView2.h */,
+				5BD220F81EE908C700A24F0B /* RoundView2.m */,
+				5BD220FD1EE929FA00A24F0B /* LineView.h */,
+				5BD220FE1EE929FA00A24F0B /* LineView.m */,
+				5BD221061EE9319A00A24F0B /* LineView1.h */,
+				5BD221071EE9319A00A24F0B /* LineView1.m */,
+				5BD221001EE92C8300A24F0B /* TriangleView.h */,
+				5BD221011EE92C8300A24F0B /* TriangleView.m */,
+				5BD221031EE9301700A24F0B /* WorldView.h */,
+				5BD221041EE9301700A24F0B /* WorldView.m */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +205,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BD220F21EE8F9A600A24F0B /* RoundView.m in Sources */,
 				5BD220DD1EE8F41E00A24F0B /* ViewController.m in Sources */,
+				5BD221021EE92C8300A24F0B /* TriangleView.m in Sources */,
+				5BD221051EE9301700A24F0B /* WorldView.m in Sources */,
+				5BD220FF1EE929FA00A24F0B /* LineView.m in Sources */,
 				5BD220DA1EE8F41E00A24F0B /* AppDelegate.m in Sources */,
+				5BD221081EE9319A00A24F0B /* LineView1.m in Sources */,
+				5BD220F51EE9033E00A24F0B /* RoundView1.m in Sources */,
+				5BD220FC1EE914E000A24F0B /* RectangleView1.m in Sources */,
+				5BD220F91EE908C700A24F0B /* RoundView2.m in Sources */,
+				5BD220EE1EE8F6E900A24F0B /* RectangleView.m in Sources */,
 				5BD220D71EE8F41E00A24F0B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +375,7 @@
 				5BD220EB1EE8F41E00A24F0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
