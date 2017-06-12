@@ -16,15 +16,29 @@
 #import "TriangleView.h"
 #import "WorldView.h"
 #import "LineView1.h"
+#import "StarView.h"
 
 @interface ViewController ()
-
+@property(nonatomic,strong)UIScrollView *scrollview;
+@property(nonatomic,assign)CGFloat screenWidth;
+@property(nonatomic,assign)CGFloat screenHeight;
+@property(nonatomic,assign)CGFloat itemHeight;
 @end
 
 @implementation ViewController
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.screenWidth = self.view.frame.size.width;
+    self.screenHeight = self.view.frame.size.height;
+    self.itemHeight = 100;
+    self.scrollview = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 20, self.screenWidth, self.screenHeight - 20)];
+    self.scrollview.bounces = YES;
+    
+    //six item
+    self.scrollview.contentSize = CGSizeMake(self.view.frame.size.width, 100 * 6);
     
     [self addRectangleView];
     
@@ -35,61 +49,74 @@
     [self addTriangleView];
     
     [self addWorldView];
+    
+    [self addStarView];
 }
 
 //矩形视图
 -(void)addRectangleView{
-    CGRect rect = CGRectMake(20, 20, 30, 20);
+    UIView *views = [[UIView alloc] initWithFrame:CGRectMake(0, 20, self.screenWidth, self.itemHeight)];
+    [self.view addSubview:views];
     
-    RectangleView *rectangleView = [[RectangleView alloc] initWithFrame:rect];
-    [self.view addSubview:rectangleView];
+    RectangleView *rectangleView = [[RectangleView alloc] initWithFrame:CGRectMake(10, 10, 80, 50)];
+    [views addSubview:rectangleView];
     
-    rect.origin.x = rect.origin.x + 40;
-    RectangleView1 *rectangleView1 = [[RectangleView1 alloc] initWithFrame:rect];
-    [self.view addSubview:rectangleView1];
+    RectangleView1 *rectangleView1 = [[RectangleView1 alloc] initWithFrame:CGRectMake(100, 10, 80, 50)];
+    [views addSubview:rectangleView1];
 }
 
 //圆形视图
 -(void)addRoundView{
-    CGRect rect = CGRectMake(20, 50, 20, 20);
-    RoundView *roudView = [[RoundView alloc] initWithFrame:rect];
-    [self.view addSubview:roudView];
+    UIView *views = [[UIView alloc] initWithFrame:CGRectMake(0, 20 + self.itemHeight, self.screenWidth, self.itemHeight)];
+    [self.view addSubview:views];
     
-    rect.origin.x = rect.origin.x + 30;
-    RoundView1 *roudView1 = [[RoundView1 alloc] initWithFrame:rect];
-    [self.view addSubview:roudView1];
+    RoundView *roudView = [[RoundView alloc] initWithFrame:CGRectMake(10, 10, 80, 80)];
+    [views addSubview:roudView];
     
-    rect.origin.x = rect.origin.x + 30;
-    RoundView2 *roudView2 = [[RoundView2 alloc] initWithFrame:rect];
-    [self.view addSubview:roudView2];
+    RoundView1 *roudView1 = [[RoundView1 alloc] initWithFrame:CGRectMake(100, 10, 80, 80)];
+    [views addSubview:roudView1];
+    
+    RoundView2 *roudView2 = [[RoundView2 alloc] initWithFrame:CGRectMake(190, 10, 80, 80)];
+    [views addSubview:roudView2];
 }
 
 //线形视图
 -(void)addLineView{
-    CGRect rect = CGRectMake(20, 80, 40, 40);
+    UIView *views = [[UIView alloc] initWithFrame:CGRectMake(0, 20 + self.itemHeight*2, self.screenWidth, self.itemHeight)];
+    [self.view addSubview:views];
     
-    LineView *lineView = [[LineView alloc] initWithFrame:rect];
-    [self.view addSubview:lineView];
+    LineView *lineView = [[LineView alloc] initWithFrame:CGRectMake(10, 10, 80, 30)];
+    [views addSubview:lineView];
     
-    rect.origin.x = rect.origin.x + 50;
-    LineView1 *lineView1 = [[LineView1 alloc] initWithFrame:rect];
-    [self.view addSubview:lineView1];
+    LineView1 *lineView1 = [[LineView1 alloc] initWithFrame:CGRectMake(100, 10, 80, 30)];
+    [views addSubview:lineView1];
 }
 
 //三角形视图
 -(void)addTriangleView{
-    CGRect rect = CGRectMake(20, 110, 40, 40);
+    UIView *views = [[UIView alloc] initWithFrame:CGRectMake(0, 20 + self.itemHeight*3, self.screenWidth, self.itemHeight)];
+    [self.view addSubview:views];
     
-    TriangleView *triangleView = [[TriangleView alloc] initWithFrame:rect];
-    [self.view addSubview:triangleView];
+    TriangleView *triangleView = [[TriangleView alloc] initWithFrame:CGRectMake(0, 0, 80, 80)];
+    [views addSubview:triangleView];
 }
 
 //文字视图
 -(void)addWorldView{
-    CGRect rect = CGRectMake(20, 160, 200, 40);
+    UIView *views = [[UIView alloc] initWithFrame:CGRectMake(0, 20 + self.itemHeight*4, self.screenWidth, self.itemHeight)];
+    [self.view addSubview:views];
     
-    WorldView *worldView = [[WorldView alloc] initWithFrame:rect];
-    [self.view addSubview:worldView];
+    WorldView *worldView = [[WorldView alloc] initWithFrame:CGRectMake(10, 10, 200, 80)];
+    [views addSubview:worldView];
+}
+
+//五角星视图
+-(void)addStarView{
+    UIView *views = [[UIView alloc] initWithFrame:CGRectMake(0, 20 + self.itemHeight*5, self.screenWidth, self.itemHeight)];
+    [self.view addSubview:views];
+    
+    StarView *startView = [[StarView alloc] initWithFrame:CGRectMake(10, 10, 80, 80)];
+    [views addSubview:startView];
 }
 
 

@@ -26,7 +26,7 @@
 // An empty implementation adversely affects performance during animation.
 - (void)drawRect:(CGRect)rect {
     
-    UIBezierPath* aPath = [UIBezierPath bezierPathWithRoundedRect:rect cornerRadius:4.0];
+    UIBezierPath* aPath = [UIBezierPath bezierPathWithRoundedRect:rect cornerRadius:10.0];
     
     aPath.lineWidth = 4.0;
     aPath.lineCapStyle = kCGLineCapRound;

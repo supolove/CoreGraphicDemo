@@ -22,6 +22,7 @@
 		5BD221021EE92C8300A24F0B /* TriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD221011EE92C8300A24F0B /* TriangleView.m */; };
 		5BD221051EE9301700A24F0B /* WorldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD221041EE9301700A24F0B /* WorldView.m */; };
 		5BD221081EE9319A00A24F0B /* LineView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD221071EE9319A00A24F0B /* LineView1.m */; };
+		5BD221631EEE41E000A24F0B /* StarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD221621EEE41E000A24F0B /* StarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,8 @@
 		5BD221041EE9301700A24F0B /* WorldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldView.m; sourceTree = "<group>"; };
 		5BD221061EE9319A00A24F0B /* LineView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineView1.h; sourceTree = "<group>"; };
 		5BD221071EE9319A00A24F0B /* LineView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineView1.m; sourceTree = "<group>"; };
+		5BD221611EEE41E000A24F0B /* StarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarView.h; sourceTree = "<group>"; };
+		5BD221621EEE41E000A24F0B /* StarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,8 @@
 				5BD221011EE92C8300A24F0B /* TriangleView.m */,
 				5BD221031EE9301700A24F0B /* WorldView.h */,
 				5BD221041EE9301700A24F0B /* WorldView.m */,
+				5BD221611EEE41E000A24F0B /* StarView.h */,
+				5BD221621EEE41E000A24F0B /* StarView.m */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -211,6 +216,7 @@
 				5BD221051EE9301700A24F0B /* WorldView.m in Sources */,
 				5BD220FF1EE929FA00A24F0B /* LineView.m in Sources */,
 				5BD220DA1EE8F41E00A24F0B /* AppDelegate.m in Sources */,
+				5BD221631EEE41E000A24F0B /* StarView.m in Sources */,
 				5BD221081EE9319A00A24F0B /* LineView1.m in Sources */,
 				5BD220F51EE9033E00A24F0B /* RoundView1.m in Sources */,
 				5BD220FC1EE914E000A24F0B /* RectangleView1.m in Sources */,
